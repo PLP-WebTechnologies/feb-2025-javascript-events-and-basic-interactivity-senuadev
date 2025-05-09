@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Website</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Hello World</h1>
+
+  <!-- Event Handling -->
+  <button id="changeBtn">Click Me!</button>
+  <p id="hoverText">Hover over this text!</p>
+  <input type="text" id="keyInput" placeholder="Type something..." />
+
+  <!-- Double Click Action -->
+  <button id="secretBtn">Double-Click Me!</button>
+
+
+  <!-- Interactive Elements -->
+  <div class="tabs">
+    <button class="tab" data-tab="1">Tab 1</button>
+    <button class="tab" data-tab="2">Tab 2</button>
+    <div id="tab-content">Click a tab to see content</div>
+  </div>
+
+  <hr>
+  <div class="gallery">
+    <img id="galleryImage" src="https://images.pexels.com/photos/31849410/pexels-photo-31849410/free-photo-of-spiral-staircase-in-modern-urban-courtyard.jpeg?auto=compress&cs=tinysrgb&w=300&lazy=load" alt="Gallery Image" />
+    <br>
+    <button id="prevImg">Previous Image</button>
+    <button id="nextImg">Next Image</button>
+  </div>
+  <hr>
+
+  <!-- Form Validation -->
+  <form id="myForm">
+    <input type="text" id="name" placeholder="Name" required />
+    <input type="email" id="email" placeholder="Email" required />
+    <input type="password" id="password" placeholder="Password" required />
+    <span id="passwordMsg"></span>
+    <button type="submit">Submit</button>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>
